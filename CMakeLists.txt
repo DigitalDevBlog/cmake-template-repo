@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.27)
+project(example_project)
+message("Top level CMakeLists.txt")
+add_subdirectory(apps)
+add_subdirectory(components)
