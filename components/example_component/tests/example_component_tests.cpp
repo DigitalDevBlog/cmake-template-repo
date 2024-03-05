@@ -6,6 +6,5 @@
 
 TEST(ExampleComponent, HelloWorld) {
     ExampleComponent exampleComponent;
-    //ASSERT_EQ(exampleComponent.printHelloWorld(), "Hello, World!");
-    ASSERT_TRUE(false);
+    ASSERT_EQ(exampleComponent.printHelloWorld(), "Hello, World!");
 }
